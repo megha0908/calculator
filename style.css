@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:white;
+    --secondary-color:  #000000;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url(—Slidesdocs—vacation\ education\ summer\ math\ class_45d2f8cf5c\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-family: 'Courgette', cursive;
+}
+
+.calculator {
+    width: 330px;
+    padding: 10px;
+    background-color:var(--secondary-color);
+    text-align: center;
+    grid-gap: 10px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px #f8fafc;
+  }
+
+h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-block: 20px;
+}
+
+
+#button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+
+
+
+
+.operator{
+    background-color:hotpink;
+    font-size: 21px;  
+}
+
+.operator:hover{
+    border: 2px solid var(--secondary-color);
+}
+
+
+.number:hover{
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#equal{
+    background-color:pink;
+    color: var(--secondary-color);
+}
+
+#equal:hover{
+    border: 2px solid var(--secondary-color);
+}
+
+
+#clear{
+    background-color:orchid;
+    color: var(--secondary-color);
+}
+
+#clear:hover{
+    border: 2px solid var(--secondary-color);
+}
+
+#backspace{
+    width: 212%;
+}
+
+
+#backspace:hover{
+    border: 2px solid var(--secondary-color);
+}
+
+
+
+.number,
+#equal,
+#clear {
+    font-size: large;
+  }
+
+#display {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: large;
+  }
